@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.programowanie_14_10.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <CheckBox mnemonicParsing="false" prefHeight="45.0" prefWidth="154.0" text="Zostaję przywoływaczem" />
+
+                         <Label fx:id="welcomeText" alignment="CENTER" prefHeight="42.0" prefWidth="302.0" text="Jak masz na imię?" />
+   <TextArea prefHeight="129.0" prefWidth="302.0" text="Wpisz swoje imię..&#10;(Przerasta mnie zmiana kodu, &#10;żeby wpisany tekst był wypisany)" />
+   <VBox alignment="CENTER" prefHeight="78.0" prefWidth="237.0">
+      <children>
+         <Label prefHeight="60.0" prefWidth="302.0" text="Jak bardzo cieszysz się na dołączenie do naszego świata?" />
+         <Slider />
+      </children>
+   </VBox>
+    <Button onAction="#onHelloButtonClick" text="Wchodzę do świata!" />
+</VBox>
